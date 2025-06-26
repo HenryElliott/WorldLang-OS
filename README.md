@@ -43,7 +43,7 @@ It includes flashcards, grammar correction, translation, OCR, and voice I/O — 
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/yourusername/worldlang-os
+git clone https://github.com/HenryElliott/WorldLang-OS
 cd worldlang-os
 bash scripts/install.sh
 bash scripts/launch.sh
