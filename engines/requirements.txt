@@ -1,4 +1,7 @@
-pytesseract
 whisper
-coqui-ai
+pyttsx3
+pytesseract
+sounddevice
+scipy
+pillow
 language-tool-python

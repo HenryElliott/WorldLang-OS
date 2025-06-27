@@ -1,0 +1,1 @@
+print("GUI would be launched here. Placeholder for full Tauri GUI.")

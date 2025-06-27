@@ -1,4 +1,2 @@
 #!/bin/bash
-echo "🚀 Launching WorldLang OS..."
-cd apps/gui
-npm install && npm run tauri dev
+python3 apps/gui/public/main.py

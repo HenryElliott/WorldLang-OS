@@ -1,0 +1,4 @@
+- [x] Flashcards
+- [x] GUI
+- [x] Voice/OCR
+- [x] Profile System
