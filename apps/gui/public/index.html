@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WorldLang OS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>🌐 WorldLang OS</h1>
+    <select id="language-select">
+      <option value="japanese">Japanese</option>
+      <option value="spanish">Spanish</option>
+      <option value="russian">Russian</option>
+      <option value="chinese">Chinese</option>
+    </select>
+
+    <div id="flashcard">
+      <div class="front" id="card-front">Click "Next" to start</div>
+      <div class="back" id="card-back"></div>
+    </div>
+
+    <div class="controls">
+      <button onclick="showAnswer()">Show Answer</button>
+      <button onclick="nextCard()">Next</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+pytesseract
+whisper
+coqui-ai
+language-tool-python

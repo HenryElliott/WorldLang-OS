@@ -1,0 +1,5 @@
+[
+  { "front": "Здравствуйте", "back": "Hello" },
+  { "front": "Спасибо", "back": "Thank you" },
+  { "front": "До свидания", "back": "Goodbye" }
+]
