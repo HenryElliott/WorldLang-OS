@@ -57,7 +57,7 @@ See [`docs/roadmap.md`](docs/roadmap.md)
 
 - [x] Flashcard system MVP
 - [x] Cross-platform GUI layout
-- [ ] Full voice assistant support
+- [x] Full voice assistant support
 - [ ] Offline grammar checker
 - [ ] Multi-language support (10+)
 - [ ] App store packaging
