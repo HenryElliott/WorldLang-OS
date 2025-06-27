@@ -2,7 +2,7 @@
 # 🌐 WorldLang OS
 
 **WorldLang OS** is a beautiful, offline-first, cross-platform language learning suite built with open-source technologies.  
-It includes flashcards, grammar correction, translation, OCR, and voice I/O — all without requiring an internet connection.
+It includes flashcards, grammar correction, translation, OCR, and voice I/O, all without requiring an internet connection.
 
 > Learn anywhere. No tracking. No subscriptions. Just pure offline learning.
 
@@ -66,7 +66,7 @@ See [`docs/roadmap.md`](docs/roadmap.md)
 
 ## 📜 License
 
-MIT License — Free for personal and commercial use.
+MIT License: Free for personal and commercial use.
 
 ---
 
