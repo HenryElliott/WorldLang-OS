@@ -70,5 +70,5 @@ MIT License: Free for personal and commercial use.
 
 ---
 
-## 🙋‍♂️ Made by Azrael  
+## 🙋‍♂️Coded by: Henry Elliott
 _The future richest man alive._ 👑
