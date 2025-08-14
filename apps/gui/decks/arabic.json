@@ -1,52 +1,1202 @@
 [
-  { "front": "مرحبا", "back": "Hello" },
-  { "front": "شكراً", "back": "Thank you" },
-  { "front": "مع السلامة", "back": "Goodbye" },
-  { "front": "نعم", "back": "Yes" },
-  { "front": "لا", "back": "No" },
-  { "front": "صباح الخير", "back": "Good morning" },
-  { "front": "مساء الخير", "back": "Good evening" },
-  { "front": "تصبح على خير", "back": "Good night" },
-  { "front": "عفواً", "back": "Excuse me / Sorry" },
-  { "front": "من فضلك", "back": "Please" },
-  { "front": "أفهم", "back": "I understand" },
-  { "front": "لا أفهم", "back": "I don’t understand" },
-  { "front": "ما اسمك؟", "back": "What is your name?" },
-  { "front": "اسمي ~", "back": "My name is ~" },
-  { "front": "أين هو؟", "back": "Where is it?" },
-  { "front": "كم السعر؟", "back": "How much is it?" },
-  { "front": "النجدة!", "back": "Help!" },
-  { "front": "لا بأس", "back": "It’s okay" },
-  { "front": "قليلاً", "back": "A little" },
-  { "front": "هل تتكلم الإنجليزية؟", "back": "Do you speak English?" },
-  { "front": "لا أتكلم العربية", "back": "I don't speak Arabic" },
-  { "front": "أين الحمام؟", "back": "Where is the bathroom?" },
-  { "front": "أنا جائع", "back": "I'm hungry" },
-  { "front": "أنا عطشان", "back": "I'm thirsty" },
-  { "front": "أنا متعب", "back": "I'm tired" },
-  { "front": "هيا بنا", "back": "Let's go" },
-  { "front": "انتظر من فضلك", "back": "Please wait" },
-  { "front": "هل تفهم؟", "back": "Do you understand?" },
-  { "front": "هل يمكنني التصوير؟", "back": "Can I take a picture?" },
-  { "front": "ما هذا؟", "back": "What is this?" },
-  { "front": "لذيذ", "back": "Delicious" },
-  { "front": "سيء", "back": "Bad (taste)" },
-  { "front": "غالي", "back": "Expensive" },
-  { "front": "رخيص", "back": "Cheap" },
-  { "front": "أحب", "back": "Like" },
-  { "front": "لا أحب", "back": "Dislike" },
-  { "front": "هنا", "back": "Here" },
-  { "front": "هناك", "back": "There" },
-  { "front": "بعيد", "back": "Over there" },
-  { "front": "متى؟", "back": "When?" },
-  { "front": "أين؟", "back": "Where?" },
-  { "front": "من؟", "back": "Who?" },
-  { "front": "ماذا؟", "back": "What?" },
-  { "front": "لماذا؟", "back": "Why?" },
-  { "front": "كيف؟", "back": "How?" },
-  { "front": "أنا ~", "back": "I am ~" },
-  { "front": "أريد الذهاب", "back": "I want to go" },
-  { "front": "أريد أن آكل", "back": "I want to eat" },
-  { "front": "أريد أن أشرب", "back": "I want to drink" },
-  { "front": "هل يمكنك مساعدتي؟", "back": "Can you help me?" }
+  {
+    "front": "مرحبا",
+    "back": "Hello"
+  },
+  {
+    "front": "شكراً",
+    "back": "Thank you"
+  },
+  {
+    "front": "مع السلامة",
+    "back": "Goodbye"
+  },
+  {
+    "front": "نعم",
+    "back": "Yes"
+  },
+  {
+    "front": "لا",
+    "back": "No"
+  },
+  {
+    "front": "صباح الخير",
+    "back": "Good morning"
+  },
+  {
+    "front": "مساء الخير",
+    "back": "Good evening"
+  },
+  {
+    "front": "تصبح على خير",
+    "back": "Good night"
+  },
+  {
+    "front": "عفواً",
+    "back": "Excuse me / Sorry"
+  },
+  {
+    "front": "من فضلك",
+    "back": "Please"
+  },
+  {
+    "front": "أفهم",
+    "back": "I understand"
+  },
+  {
+    "front": "لا أفهم",
+    "back": "I don’t understand"
+  },
+  {
+    "front": "ما اسمك؟",
+    "back": "What is your name?"
+  },
+  {
+    "front": "اسمي ~",
+    "back": "My name is ~"
+  },
+  {
+    "front": "أين هو؟",
+    "back": "Where is it?"
+  },
+  {
+    "front": "كم السعر؟",
+    "back": "How much is it?"
+  },
+  {
+    "front": "النجدة!",
+    "back": "Help!"
+  },
+  {
+    "front": "لا بأس",
+    "back": "It’s okay"
+  },
+  {
+    "front": "قليلاً",
+    "back": "A little"
+  },
+  {
+    "front": "هل تتكلم الإنجليزية؟",
+    "back": "Do you speak English?"
+  },
+  {
+    "front": "لا أتكلم العربية",
+    "back": "I don't speak Arabic"
+  },
+  {
+    "front": "أين الحمام؟",
+    "back": "Where is the bathroom?"
+  },
+  {
+    "front": "أنا جائع",
+    "back": "I'm hungry"
+  },
+  {
+    "front": "أنا عطشان",
+    "back": "I'm thirsty"
+  },
+  {
+    "front": "أنا متعب",
+    "back": "I'm tired"
+  },
+  {
+    "front": "هيا بنا",
+    "back": "Let's go"
+  },
+  {
+    "front": "انتظر من فضلك",
+    "back": "Please wait"
+  },
+  {
+    "front": "هل تفهم؟",
+    "back": "Do you understand?"
+  },
+  {
+    "front": "هل يمكنني التصوير؟",
+    "back": "Can I take a picture?"
+  },
+  {
+    "front": "ما هذا؟",
+    "back": "What is this?"
+  },
+  {
+    "front": "لذيذ",
+    "back": "Delicious"
+  },
+  {
+    "front": "سيء",
+    "back": "Bad (taste)"
+  },
+  {
+    "front": "غالي",
+    "back": "Expensive"
+  },
+  {
+    "front": "رخيص",
+    "back": "Cheap"
+  },
+  {
+    "front": "أحب",
+    "back": "Like"
+  },
+  {
+    "front": "لا أحب",
+    "back": "Dislike"
+  },
+  {
+    "front": "هنا",
+    "back": "Here"
+  },
+  {
+    "front": "هناك",
+    "back": "There"
+  },
+  {
+    "front": "بعيد",
+    "back": "Over there"
+  },
+  {
+    "front": "متى؟",
+    "back": "When?"
+  },
+  {
+    "front": "أين؟",
+    "back": "Where?"
+  },
+  {
+    "front": "من؟",
+    "back": "Who?"
+  },
+  {
+    "front": "ماذا؟",
+    "back": "What?"
+  },
+  {
+    "front": "لماذا؟",
+    "back": "Why?"
+  },
+  {
+    "front": "كيف؟",
+    "back": "How?"
+  },
+  {
+    "front": "أنا ~",
+    "back": "I am ~"
+  },
+  {
+    "front": "أريد الذهاب",
+    "back": "I want to go"
+  },
+  {
+    "front": "أريد أن آكل",
+    "back": "I want to eat"
+  },
+  {
+    "front": "أريد أن أشرب",
+    "back": "I want to drink"
+  },
+  {
+    "front": "هل يمكنك مساعدتي؟",
+    "back": "Can you help me?"
+  },
+  {
+    "front": "من فضلك كرر",
+    "back": "Please repeat"
+  },
+  {
+    "front": "تحدث ببطء من فضلك",
+    "back": "Speak slowly, please"
+  },
+  {
+    "front": "اكتب ذلك من فضلك",
+    "back": "Please write it down"
+  },
+  {
+    "front": "أنا لا أعرف",
+    "back": "I don't know"
+  },
+  {
+    "front": "أنا لا أتذكر",
+    "back": "I don't remember"
+  },
+  {
+    "front": "أنا ضائع",
+    "back": "I'm lost"
+  },
+  {
+    "front": "أين أنا؟",
+    "back": "Where am I?"
+  },
+  {
+    "front": "هل يمكنك أن تريني على الخريطة؟",
+    "back": "Can you show me on the map?"
+  },
+  {
+    "front": "ما رقم هاتفك؟",
+    "back": "What is your phone number?"
+  },
+  {
+    "front": "هل يمكنني استخدام هاتفك؟",
+    "back": "Can I use your phone?"
+  },
+  {
+    "front": "أنا لا أملك نقوداً كافية",
+    "back": "I don't have enough money"
+  },
+  {
+    "front": "هل تقبلون البطاقة؟",
+    "back": "Do you accept card?"
+  },
+  {
+    "front": "أين الصراف الآلي؟",
+    "back": "Where is the ATM?"
+  },
+  {
+    "front": "متى تفتحون؟",
+    "back": "When do you open?"
+  },
+  {
+    "front": "متى تغلقون؟",
+    "back": "When do you close?"
+  },
+  {
+    "front": "اليوم",
+    "back": "Today"
+  },
+  {
+    "front": "غداً",
+    "back": "Tomorrow"
+  },
+  {
+    "front": "أمس",
+    "back": "Yesterday"
+  },
+  {
+    "front": "الآن",
+    "back": "Now"
+  },
+  {
+    "front": "لاحقاً",
+    "back": "Later"
+  },
+  {
+    "front": "بعد قليل",
+    "back": "Soon"
+  },
+  {
+    "front": "ثوانٍ",
+    "back": "Seconds"
+  },
+  {
+    "front": "دقائق",
+    "back": "Minutes"
+  },
+  {
+    "front": "ساعات",
+    "back": "Hours"
+  },
+  {
+    "front": "أيام",
+    "back": "Days"
+  },
+  {
+    "front": "أسبوع",
+    "back": "Week"
+  },
+  {
+    "front": "شهر",
+    "back": "Month"
+  },
+  {
+    "front": "سنة",
+    "back": "Year"
+  },
+  {
+    "front": "في الصباح",
+    "back": "In the morning"
+  },
+  {
+    "front": "في المساء",
+    "back": "In the evening"
+  },
+  {
+    "front": "بالليل",
+    "back": "At night"
+  },
+  {
+    "front": "موعد",
+    "back": "Appointment"
+  },
+  {
+    "front": "فاتورة من فضلك",
+    "back": "The bill, please"
+  },
+  {
+    "front": "هل يمكنني الحصول على إيصال؟",
+    "back": "Can I get a receipt?"
+  },
+  {
+    "front": "خدمة ممتازة",
+    "back": "Excellent service"
+  },
+  {
+    "front": "آسف على التأخير",
+    "back": "Sorry for the delay"
+  },
+  {
+    "front": "لا مشكلة",
+    "back": "No problem"
+  },
+  {
+    "front": "تمام",
+    "back": "All good / Okay"
+  },
+  {
+    "front": "موافق",
+    "back": "Agreed / OK"
+  },
+  {
+    "front": "غير موافق",
+    "back": "I disagree"
+  },
+  {
+    "front": "أعتقد ذلك",
+    "back": "I think so"
+  },
+  {
+    "front": "لا أعتقد",
+    "back": "I don't think so"
+  },
+  {
+    "front": "ربما",
+    "back": "Maybe"
+  },
+  {
+    "front": "بالطبع",
+    "back": "Of course"
+  },
+  {
+    "front": "أكيد",
+    "back": "Sure / Definitely"
+  },
+  {
+    "front": "هل هذا صحيح؟",
+    "back": "Is that correct?"
+  },
+  {
+    "front": "أنا جاهز",
+    "back": "I'm ready"
+  },
+  {
+    "front": "انتبه!",
+    "back": "Watch out!"
+  },
+  {
+    "front": "استعجل من فضلك",
+    "back": "Hurry, please"
+  },
+  {
+    "front": "لحظة واحدة",
+    "back": "One moment"
+  },
+  {
+    "front": "ثانية واحدة",
+    "back": "One second"
+  },
+  {
+    "front": "أين المطعم؟",
+    "back": "Where is the مطعم?"
+  },
+  {
+    "front": "أين الفندق؟",
+    "back": "Where is the فندق?"
+  },
+  {
+    "front": "أين المستشفى؟",
+    "back": "Where is the مستشفى?"
+  },
+  {
+    "front": "أين الصيدلية؟",
+    "back": "Where is the صيدلية?"
+  },
+  {
+    "front": "أين البنك؟",
+    "back": "Where is the بنك?"
+  },
+  {
+    "front": "أين ماكينة الصراف؟",
+    "back": "Where is the ماكينة صراف?"
+  },
+  {
+    "front": "أين محطة القطار؟",
+    "back": "Where is the محطة قطار?"
+  },
+  {
+    "front": "أين موقف الحافلة؟",
+    "back": "Where is the موقف حافلة?"
+  },
+  {
+    "front": "أين المطار؟",
+    "back": "Where is the مطار?"
+  },
+  {
+    "front": "أين مكتب التذاكر؟",
+    "back": "Where is the مكتب تذاكر?"
+  },
+  {
+    "front": "أين الشرطة؟",
+    "back": "Where is the شرطة?"
+  },
+  {
+    "front": "أين السوق؟",
+    "back": "Where is the سوق?"
+  },
+  {
+    "front": "أين السوبرماركت؟",
+    "back": "Where is the سوبرماركت?"
+  },
+  {
+    "front": "أين المول؟",
+    "back": "Where is the مول?"
+  },
+  {
+    "front": "أين المتحف؟",
+    "back": "Where is the متحف?"
+  },
+  {
+    "front": "أين الحديقة؟",
+    "back": "Where is the حديقة?"
+  },
+  {
+    "front": "أين الشاطئ؟",
+    "back": "Where is the شاطئ?"
+  },
+  {
+    "front": "أين الجامعة؟",
+    "back": "Where is the جامعة?"
+  },
+  {
+    "front": "أين المدرسة؟",
+    "back": "Where is the مدرسة?"
+  },
+  {
+    "front": "أين الملعب؟",
+    "back": "Where is the ملعب?"
+  },
+  {
+    "front": "أين المخبز؟",
+    "back": "Where is the مخبز?"
+  },
+  {
+    "front": "أين المقهى؟",
+    "back": "Where is the مقهى?"
+  },
+  {
+    "front": "أين المكتبة؟",
+    "back": "Where is the مكتبة?"
+  },
+  {
+    "front": "أين موقف السيارات؟",
+    "back": "Where is the موقف سيارات?"
+  },
+  {
+    "front": "أين الميناء؟",
+    "back": "Where is the ميناء?"
+  },
+  {
+    "front": "أين المسجد؟",
+    "back": "Where is the مسجد?"
+  },
+  {
+    "front": "أين الكنيسة؟",
+    "back": "Where is the كنيسة?"
+  },
+  {
+    "front": "أين محطة المترو؟",
+    "back": "Where is the محطة مترو?"
+  },
+  {
+    "front": "أين مكتب البريد؟",
+    "back": "Where is the مكتب بريد?"
+  },
+  {
+    "front": "أين المركز التجاري؟",
+    "back": "Where is the مركز تجاري?"
+  },
+  {
+    "front": "أين السينما؟",
+    "back": "Where is the سينما?"
+  },
+  {
+    "front": "أين المسرح؟",
+    "back": "Where is the مسرح?"
+  },
+  {
+    "front": "أين صالون الحلاقة؟",
+    "back": "Where is the صون حلاقة?"
+  },
+  {
+    "front": "أين مغسلة الملابس؟",
+    "back": "Where is the مغسلة ملابس?"
+  },
+  {
+    "front": "أين محطة الوقود؟",
+    "back": "Where is the محطة وقود?"
+  },
+  {
+    "front": "أين الحدود؟",
+    "back": "Where is the حدود?"
+  },
+  {
+    "front": "أين السفارة؟",
+    "back": "Where is the سفارة?"
+  },
+  {
+    "front": "أين القنصلية؟",
+    "back": "Where is the قنصلية?"
+  },
+  {
+    "front": "أحتاج إلى ماء",
+    "back": "I need water"
+  },
+  {
+    "front": "هل لديك ماء؟",
+    "back": "Do you have water?"
+  },
+  {
+    "front": "من فضلك أعطني ماء",
+    "back": "Please give me water"
+  },
+  {
+    "front": "أحتاج إلى طعام",
+    "back": "I need food"
+  },
+  {
+    "front": "هل لديك طعام؟",
+    "back": "Do you have food?"
+  },
+  {
+    "front": "من فضلك أعطني طعام",
+    "back": "Please give me food"
+  },
+  {
+    "front": "أحتاج إلى سيارة أجرة",
+    "back": "I need a taxi"
+  },
+  {
+    "front": "هل لديك سيارة أجرة؟",
+    "back": "Do you have a taxi?"
+  },
+  {
+    "front": "من فضلك أعطني سيارة أجرة",
+    "back": "Please give me a taxi"
+  },
+  {
+    "front": "أحتاج إلى تذكرة",
+    "back": "I need a ticket"
+  },
+  {
+    "front": "هل لديك تذكرة؟",
+    "back": "Do you have a ticket?"
+  },
+  {
+    "front": "من فضلك أعطني تذكرة",
+    "back": "Please give me a ticket"
+  },
+  {
+    "front": "أحتاج إلى مساعدة",
+    "back": "I need help"
+  },
+  {
+    "front": "هل لديك مساعدة؟",
+    "back": "Do you have help?"
+  },
+  {
+    "front": "من فضلك أعطني مساعدة",
+    "back": "Please give me help"
+  },
+  {
+    "front": "أحتاج إلى طبيب",
+    "back": "I need a doctor"
+  },
+  {
+    "front": "هل لديك طبيب؟",
+    "back": "Do you have a doctor?"
+  },
+  {
+    "front": "من فضلك أعطني طبيب",
+    "back": "Please give me a doctor"
+  },
+  {
+    "front": "أحتاج إلى دواء",
+    "back": "I need medicine"
+  },
+  {
+    "front": "هل لديك دواء؟",
+    "back": "Do you have medicine?"
+  },
+  {
+    "front": "من فضلك أعطني دواء",
+    "back": "Please give me medicine"
+  },
+  {
+    "front": "أحتاج إلى واي فاي",
+    "back": "I need Wi‑Fi"
+  },
+  {
+    "front": "هل لديك واي فاي؟",
+    "back": "Do you have Wi‑Fi?"
+  },
+  {
+    "front": "من فضلك أعطني واي فاي",
+    "back": "Please give me Wi‑Fi"
+  },
+  {
+    "front": "أحتاج إلى كلمة مرور الواي فاي",
+    "back": "I need the Wi‑Fi password"
+  },
+  {
+    "front": "هل لديك كلمة مرور الواي فاي؟",
+    "back": "Do you have the Wi‑Fi password?"
+  },
+  {
+    "front": "من فضلك أعطني كلمة مرور الواي فاي",
+    "back": "Please give me the Wi‑Fi password"
+  },
+  {
+    "front": "أحتاج إلى مقبس شحن",
+    "back": "I need a charging outlet"
+  },
+  {
+    "front": "هل لديك مقبس شحن؟",
+    "back": "Do you have a charging outlet?"
+  },
+  {
+    "front": "من فضلك أعطني مقبس شحن",
+    "back": "Please give me a charging outlet"
+  },
+  {
+    "front": "أحتاج إلى بطارية",
+    "back": "I need a battery"
+  },
+  {
+    "front": "هل لديك بطارية؟",
+    "back": "Do you have a battery?"
+  },
+  {
+    "front": "من فضلك أعطني بطارية",
+    "back": "Please give me a battery"
+  },
+  {
+    "front": "أحتاج إلى محول كهرباء",
+    "back": "I need a power adapter"
+  },
+  {
+    "front": "هل لديك محول كهرباء؟",
+    "back": "Do you have a power adapter?"
+  },
+  {
+    "front": "من فضلك أعطني محول كهرباء",
+    "back": "Please give me a power adapter"
+  },
+  {
+    "front": "أحتاج إلى خريطة",
+    "back": "I need a map"
+  },
+  {
+    "front": "هل لديك خريطة؟",
+    "back": "Do you have a map?"
+  },
+  {
+    "front": "من فضلك أعطني خريطة",
+    "back": "Please give me a map"
+  },
+  {
+    "front": "أحتاج إلى كمامة",
+    "back": "I need a mask"
+  },
+  {
+    "front": "هل لديك كمامة؟",
+    "back": "Do you have a mask?"
+  },
+  {
+    "front": "من فضلك أعطني كمامة",
+    "back": "Please give me a mask"
+  },
+  {
+    "front": "أحتاج إلى مناديل",
+    "back": "I need tissues"
+  },
+  {
+    "front": "هل لديك مناديل؟",
+    "back": "Do you have tissues?"
+  },
+  {
+    "front": "من فضلك أعطني مناديل",
+    "back": "Please give me tissues"
+  },
+  {
+    "front": "أحتاج إلى كمبيوتر",
+    "back": "I need a computer"
+  },
+  {
+    "front": "هل لديك كمبيوتر؟",
+    "back": "Do you have a computer?"
+  },
+  {
+    "front": "من فضلك أعطني كمبيوتر",
+    "back": "Please give me a computer"
+  },
+  {
+    "front": "أحتاج إلى حاسوب",
+    "back": "I need a computer"
+  },
+  {
+    "front": "هل لديك حاسوب؟",
+    "back": "Do you have a computer?"
+  },
+  {
+    "front": "من فضلك أعطني حاسوب",
+    "back": "Please give me a computer"
+  },
+  {
+    "front": "أحتاج إلى مظلة",
+    "back": "I need an umbrella"
+  },
+  {
+    "front": "هل لديك مظلة؟",
+    "back": "Do you have an umbrella?"
+  },
+  {
+    "front": "من فضلك أعطني مظلة",
+    "back": "Please give me an umbrella"
+  },
+  {
+    "front": "أحتاج إلى سيارة للإيجار",
+    "back": "I need a rental car"
+  },
+  {
+    "front": "هل لديك سيارة للإيجار؟",
+    "back": "Do you have a rental car?"
+  },
+  {
+    "front": "من فضلك أعطني سيارة للإيجار",
+    "back": "Please give me a rental car"
+  },
+  {
+    "front": "أحتاج إلى غرفة",
+    "back": "I need a room"
+  },
+  {
+    "front": "هل لديك غرفة؟",
+    "back": "Do you have a room?"
+  },
+  {
+    "front": "من فضلك أعطني غرفة",
+    "back": "Please give me a room"
+  },
+  {
+    "front": "أحتاج إلى بطانية",
+    "back": "I need a blanket"
+  },
+  {
+    "front": "هل لديك بطانية؟",
+    "back": "Do you have a blanket?"
+  },
+  {
+    "front": "من فضلك أعطني بطانية",
+    "back": "Please give me a blanket"
+  },
+  {
+    "front": "أحتاج إلى وسادة",
+    "back": "I need a pillow"
+  },
+  {
+    "front": "هل لديك وسادة؟",
+    "back": "Do you have a pillow?"
+  },
+  {
+    "front": "من فضلك أعطني وسادة",
+    "back": "Please give me a pillow"
+  },
+  {
+    "front": "أحتاج إلى ماء ساخن",
+    "back": "I need hot water"
+  },
+  {
+    "front": "هل لديك ماء ساخن؟",
+    "back": "Do you have hot water?"
+  },
+  {
+    "front": "من فضلك أعطني ماء ساخن",
+    "back": "Please give me hot water"
+  },
+  {
+    "front": "أحتاج إلى ثلج",
+    "back": "I need ice"
+  },
+  {
+    "front": "هل لديك ثلج؟",
+    "back": "Do you have ice?"
+  },
+  {
+    "front": "من فضلك أعطني ثلج",
+    "back": "Please give me ice"
+  },
+  {
+    "front": "أحتاج إلى حقيبة",
+    "back": "I need a bag"
+  },
+  {
+    "front": "هل لديك حقيبة؟",
+    "back": "Do you have a bag?"
+  },
+  {
+    "front": "من فضلك أعطني حقيبة",
+    "back": "Please give me a bag"
+  },
+  {
+    "front": "أحتاج إلى كيس",
+    "back": "I need a bag"
+  },
+  {
+    "front": "هل لديك كيس؟",
+    "back": "Do you have a bag?"
+  },
+  {
+    "front": "من فضلك أعطني كيس",
+    "back": "Please give me a bag"
+  },
+  {
+    "front": "أحتاج إلى فاتورة",
+    "back": "I need a bill/receipt"
+  },
+  {
+    "front": "هل لديك فاتورة؟",
+    "back": "Do you have a bill/receipt?"
+  },
+  {
+    "front": "من فضلك أعطني فاتورة",
+    "back": "Please give me a bill/receipt"
+  },
+  {
+    "front": "أحتاج إلى موعد",
+    "back": "I need an appointment"
+  },
+  {
+    "front": "هل لديك موعد؟",
+    "back": "Do you have an appointment?"
+  },
+  {
+    "front": "من فضلك أعطني موعد",
+    "back": "Please give me an appointment"
+  },
+  {
+    "front": "أحتاج إلى مترجم",
+    "back": "I need a translator"
+  },
+  {
+    "front": "هل لديك مترجم؟",
+    "back": "Do you have a translator?"
+  },
+  {
+    "front": "من فضلك أعطني مترجم",
+    "back": "Please give me a translator"
+  },
+  {
+    "front": "أحتاج إلى مساعدة عاجلة",
+    "back": "I need urgent help"
+  },
+  {
+    "front": "هل لديك مساعدة عاجلة؟",
+    "back": "Do you have urgent help?"
+  },
+  {
+    "front": "من فضلك أعطني مساعدة عاجلة",
+    "back": "Please give me urgent help"
+  },
+  {
+    "front": "أريد أن أشتري",
+    "back": "I want to buy"
+  },
+  {
+    "front": "أريد أن أنام",
+    "back": "I want to sleep"
+  },
+  {
+    "front": "أريد أن أرتاح",
+    "back": "I want to rest"
+  },
+  {
+    "front": "أريد أن أتصل",
+    "back": "I want to call"
+  },
+  {
+    "front": "أريد أن أدفع",
+    "back": "I want to pay"
+  },
+  {
+    "front": "أريد أن أحجز",
+    "back": "I want to book"
+  },
+  {
+    "front": "أريد أن ألغي",
+    "back": "I want to cancel"
+  },
+  {
+    "front": "أريد أن أغيّر",
+    "back": "I want to change"
+  },
+  {
+    "front": "أريد أن أسجّل الدخول",
+    "back": "I want to check in"
+  },
+  {
+    "front": "أريد أن أسجّل الخروج",
+    "back": "I want to check out"
+  },
+  {
+    "front": "أريد أن أطلب",
+    "back": "I want to order"
+  },
+  {
+    "front": "أريد أن أجلس",
+    "back": "I want to sit"
+  },
+  {
+    "front": "أريد أن أقف",
+    "back": "I want to stand"
+  },
+  {
+    "front": "أريد أن أمشي",
+    "back": "I want to walk"
+  },
+  {
+    "front": "أريد أن أجري",
+    "back": "I want to run"
+  },
+  {
+    "front": "أريد أن أسبح",
+    "back": "I want to swim"
+  },
+  {
+    "front": "أريد أن أزور",
+    "back": "I want to visit"
+  },
+  {
+    "front": "أريد أن أتعلم",
+    "back": "I want to learn"
+  },
+  {
+    "front": "أريد أن أتمرّن",
+    "back": "I want to practice"
+  },
+  {
+    "front": "أريد أن أدرس",
+    "back": "I want to study"
+  },
+  {
+    "front": "أريد أن أقرأ",
+    "back": "I want to read"
+  },
+  {
+    "front": "أريد أن أكتب",
+    "back": "I want to write"
+  },
+  {
+    "front": "أريد أن أستمع",
+    "back": "I want to listen"
+  },
+  {
+    "front": "أريد أن أشاهد",
+    "back": "I want to watch"
+  },
+  {
+    "front": "أريد أن ألتقط صورة",
+    "back": "I want to take a photo"
+  },
+  {
+    "front": "أريد أن أشحن هاتفي",
+    "back": "I want to charge my phone"
+  },
+  {
+    "front": "أريد أن أسحب مالاً",
+    "back": "I want to withdraw money"
+  },
+  {
+    "front": "أريد أن أصرف عملة",
+    "back": "I want to exchange money"
+  },
+  {
+    "front": "أريد أن أستأجر سيارة",
+    "back": "I want to rent a car"
+  },
+  {
+    "front": "أريد أن أستخدم الإنترنت",
+    "back": "I want to use the internet"
+  },
+  {
+    "front": "أريد أن أقابل صديقاً",
+    "back": "I want to meet a friend"
+  },
+  {
+    "front": "أريد أن أجرّب هذا",
+    "back": "I want to try this"
+  },
+  {
+    "front": "أريد أن أعود لاحقاً",
+    "back": "I want to come back later"
+  },
+  {
+    "front": "هل يمكنني أن أدفع ببطاقة؟",
+    "back": "Can I pay by card?"
+  },
+  {
+    "front": "هل يمكنني أن أجلس هنا؟",
+    "back": "Can I sit here?"
+  },
+  {
+    "front": "هل يمكنني أن أدخن هنا؟",
+    "back": "Can I smoke here?"
+  },
+  {
+    "front": "هل يمكنني أن أجرّب هذا؟",
+    "back": "Can I try this on?"
+  },
+  {
+    "front": "هل يمكنني أن أتذوق هذا؟",
+    "back": "Can I taste this?"
+  },
+  {
+    "front": "هل يمكنني أن أفتح النافذة؟",
+    "back": "Can I open the window?"
+  },
+  {
+    "front": "هل يمكنني أن أغلق الباب؟",
+    "back": "Can I close the door?"
+  },
+  {
+    "front": "هل يمكنني أن أغيّر المقعد؟",
+    "back": "Can I change the seat?"
+  },
+  {
+    "front": "هل يمكنني أن أحصل على خصم؟",
+    "back": "Can I get a discount?"
+  },
+  {
+    "front": "هل يمكنني أن أحصل على إيصال؟",
+    "back": "Can I get a receipt?"
+  },
+  {
+    "front": "هل يمكنني أن أركن هنا؟",
+    "back": "Can I park here?"
+  },
+  {
+    "front": "هل يمكنني أن أستخدم الحمام؟",
+    "back": "Can I use the bathroom?"
+  },
+  {
+    "front": "هل يمكنني أن أشحن هاتفي هنا؟",
+    "back": "Can I charge my phone here?"
+  },
+  {
+    "front": "هل يمكنني أن ألتقط صورة؟",
+    "back": "Can I take a photo?"
+  },
+  {
+    "front": "هل يمكنني أن أطلب سيارة أجرة؟",
+    "back": "Can I call a taxi?"
+  },
+  {
+    "front": "هل يمكنني أن أحضر صديقاً؟",
+    "back": "Can I bring a friend?"
+  },
+  {
+    "front": "هل يمكنني أن أسجّل الدخول مبكراً؟",
+    "back": "Can I check in early?"
+  },
+  {
+    "front": "هل يمكنني أن أسجّل الخروج متأخراً؟",
+    "back": "Can I check out late?"
+  },
+  {
+    "front": "هل يمكنني أن ألغي الطلب؟",
+    "back": "Can I cancel the order?"
+  },
+  {
+    "front": "هل يمكنني أن أعيد هذا؟",
+    "back": "Can I return this?"
+  },
+  {
+    "front": "هل يمكنني أن أستبدل هذا؟",
+    "back": "Can I exchange this?"
+  },
+  {
+    "front": "هل يمكنني أن أحصل على ماء؟",
+    "back": "Can I have some water?"
+  },
+  {
+    "front": "هل يمكنني أن أرى القائمة؟",
+    "back": "Can I see the menu?"
+  },
+  {
+    "front": "هل يمكنني أن أحصل على الحساب؟",
+    "back": "Can I have the bill?"
+  },
+  {
+    "front": "هل يمكنني أن آخذ كيساً؟",
+    "back": "Can I have a bag?"
+  },
+  {
+    "front": "هل يمكنك أن تساعدني؟",
+    "back": "Can you help me?"
+  },
+  {
+    "front": "هل يمكنك أن تكرر ذلك؟",
+    "back": "Can you repeat that?"
+  },
+  {
+    "front": "هل يمكنك أن تتحدث ببطء؟",
+    "back": "Can you speak slowly?"
+  },
+  {
+    "front": "هل يمكنك أن تكتب ذلك؟",
+    "back": "Can you write that down?"
+  },
+  {
+    "front": "هل يمكنك أن تطلب سيارة أجرة؟",
+    "back": "Can you call a taxi?"
+  },
+  {
+    "front": "هل يمكنك أن تلتقط لي صورة؟",
+    "back": "Can you take a photo for me?"
+  },
+  {
+    "front": "هل يمكنك أن تحضر القائمة؟",
+    "back": "Can you bring the menu?"
+  },
+  {
+    "front": "هل يمكنك أن توصي بطبق؟",
+    "back": "Can you recommend a dish?"
+  },
+  {
+    "front": "هل يمكنك أن تتحقق من السعر؟",
+    "back": "Can you check the price?"
+  },
+  {
+    "front": "هل يمكنك أن تخفض السعر؟",
+    "back": "Can you lower the price?"
+  },
+  {
+    "front": "هل يمكنك أن تصلح هذا؟",
+    "back": "Can you fix this?"
+  },
+  {
+    "front": "هل يمكنك أن تفتح الباب؟",
+    "back": "Can you open the door?"
+  },
+  {
+    "front": "هل يمكنك أن تغلق النافذة؟",
+    "back": "Can you close the window?"
+  }
 ]
